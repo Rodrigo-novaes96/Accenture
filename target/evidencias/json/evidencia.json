@@ -1,0 +1,112 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Cotação de seguro",
+        "description": "",
+        "id": "seguro-de-automovel;cotação-de-seguro",
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7101723800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "que entro no site para realizar a cotação do seguro",
+            "match": {
+              "location": "TestsAccenture.queEntroNoSiteParaRealizarACotaçãoDoSeguro()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1534735100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "preencho o formulario da aba “Enter Vehicle Data”",
+            "match": {
+              "location": "TestsAccenture.preenchoOFormularioDaAbaEnterVehicleData()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 1059680000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "preencho o formulario da aba Enter Insurant Data",
+            "match": {
+              "location": "TestsAccenture.preenchoOFormularioDaAbaEnterInsurantData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 40765905500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "preencho o formulario da aba Enter Product Data",
+            "match": {
+              "location": "TestsAccenture.preenchoOFormularioDaAbaEnterProductData()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 148787500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "preencho o formulario da aba Select Price Option",
+            "match": {
+              "location": "TestsAccenture.preenchoOFormularioDaAbaSelectPriceOption()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 1054783100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "preencho o formulario da aba Send Quote",
+            "match": {
+              "location": "TestsAccenture.preenchoOFormularioDaAbaSendQuote()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 9620081600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "verifico a mensagem “Sending e-mail success!” na tela",
+            "match": {
+              "location": "TestsAccenture.verificoAMensagemSendingEMailSuccessNaTela()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cot"
+          }
+        ]
+      }
+    ],
+    "name": "Seguro de automovel",
+    "description": "",
+    "id": "seguro-de-automovel",
+    "keyword": "Funcionalidade",
+    "uri": "features/TestsAccenture.feature",
+    "tags": []
+  }
+]
